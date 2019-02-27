@@ -32,7 +32,7 @@ Those are the best settings in the world. If you don't agree, make an issue with
 
 ## User Settings
 
-```
+```json
 // Place your settings in this file to overwrite the default settings
 {
     "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
