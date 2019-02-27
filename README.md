@@ -9,19 +9,25 @@ Those are the best settings in the world. If you don't agree, make an issue with
 * C#
 * C# Extensions
 * C# FixFormat
+* C# XML Documentation Comments
 * compareit
 * Git History
+* HTML CSS Support
+* Material Theme
+* MSBuild project tools
 * NuGet Package Manager
 * PHP Debug
 * PHP IntelliSense
 * Plastic
 * Python
 * Shader languages support for VS Code
+* Spell Right
 * To Do Tasks
 * todo-txt
 * Toggle CodeLens
 * Vim
 * vscode-icons
+* vscode-solution-explorer
 * yo
 
 ## User Settings
@@ -49,10 +55,12 @@ Those are the best settings in the world. If you don't agree, make an issue with
         "comments": false,
         "strings": true
     },
+    "editor.snippetSuggestions": "none",
     "editor.quickSuggestionsDelay": 0,
     "editor.parameterHints.enabled": true,
     "editor.wordBasedSuggestions": true,
     "editor.detectIndentation": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "vsicons.dontShowNewVersionMessage": true,
@@ -68,6 +76,7 @@ Those are the best settings in the world. If you don't agree, make an issue with
         "editorGutter.background": "#090909",
     },
     "csharpfixformat.style.spaces.beforeParenthesis": false,
+    "csharpfixformat.style.spaces.afterParenthesis": false,
     "python.pythonPath": "C:\\Python34\\python.exe",
     "python.linting.pylintEnabled": false,
     "window.titleBarStyle": "custom",
@@ -75,6 +84,21 @@ Those are the best settings in the world. If you don't agree, make an issue with
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "debug.toolBarLocation": "docked",
     "debug.openDebug": "openOnDebugBreak",
-    "typescript.tsc.autoDetect": "off"
+    "typescript.tsc.autoDetect": "off",
+    "csharp.suppressDotnetRestoreNotification": true,
+    "csharp.suppressDotnetInstallWarning": true,
+    "csharp.suppressProjectJsonWarning": true,
+    "csharp.suppressHiddenDiagnostics": true,
+    "omnisharp.disableMSBuildDiagnosticWarning": true,
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "csharp"
+    ],
+    "spellright.notificationClass": "information"
 }
 ```
